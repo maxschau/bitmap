@@ -3,6 +3,9 @@ not my proudest work regarding clean code, but does the job at a home exam
 
 use at your own risk 🤡🤡🤡🤡
 
+## Requirements
+- tabulate
+
 ## Run:
 ```console
 python3 bitmap.py "43 43 43 87 87 63 63 32 33 33 33 33 89 89 89 33"        

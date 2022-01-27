@@ -28,7 +28,7 @@ for index, val in enumerate(arr):
 print("Bitmap for each possible value\n")
 print(tabulate(arr, headers=bitmap))
 
-print("\nRun length: \n")
+print("\nRun length encoding:")
 
 
 def count_run_length(arr):
@@ -51,7 +51,8 @@ def count_run_length(arr):
     if count_symbol == 1:
         output += "rest ones"
     else:
-        output += "rest zeroes"
+        output = output[:-2]
+        # output += "rest zeroes" # Optional but not needed
     print(output)
 
 
